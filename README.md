@@ -94,24 +94,7 @@ Assessment Level
 
 Scenario Duration
 
-Deployment to Microsoft Teams
-This tool is designed to be integrated into Microsoft Teams as a custom tab for easy access during training sessions.
 
-Host the HTML File: The rbfrs-scenario-tool-v2.html file must be hosted on a web server with an HTTPS URL. GitHub Pages is a convenient option for this.
-
-Create a GitHub repository (e.g., rbfrs-scenario-tool).
-
-Upload rbfrs-scenario-tool-v2.html to the root of your main branch.
-
-Enable GitHub Pages in your repository settings (Settings > Pages), selecting the main branch and /root folder.
-
-Copy the generated GitHub Pages URL (e.g., https://yourusername.github.io/rbfrs-scenario-tool/rbfrs-scenario-tool-v2.html).
-
-Add as a Teams Tab:
-
-In Microsoft Teams, navigate to the desired Team and Channel.
-
-Click the + (Add a tab) button.
 
 Search for and select the "Website" app.
 
