@@ -1,2 +1,139 @@
 # Scenario_Tool_Test
 Test for a Scenario Generator
+This tool is for testing only and is not meant for production. 
+RBFRS Incident Commander Assessment – Enhanced Scenario Builder
+This tool provides a dynamic and customizable scenario builder designed for Incident Commander (IC) assessment and training within the Royal Berkshire Fire and Rescue Service (RBFRS). It allows instructors to quickly generate diverse incident scenarios by selecting various parameters related to location, incident type, environmental conditions, building specifics, and assessment focus.
+
+Table of Contents
+Features
+
+How to Use
+
+Scenario Generation Options
+
+Deployment to Microsoft Teams
+
+Local Development
+
+Contributing
+
+License
+
+Features
+Customizable Parameters: Select from various dropdowns for scenario title, location, incident type, time, weather, building construction, number of floors, fire protection, access, occupancy, initial situation, casualties, resources, complications, exercise purpose, competencies, assessment level, and duration.
+
+Berkshire-Specific Scenarios: A dedicated button to generate scenarios relevant to the Royal Berkshire area, pre-filling certain fields with local context.
+
+Randomized Scenarios: Quickly generate a completely random scenario across all available options.
+
+Detailed Output: Generates a concise brief outlining the scenario details, assessment focus, and key decision points.
+
+Export Functionality: Export the generated scenario data as a JSON file for record-keeping or further analysis.
+
+Auto-Save: Automatically saves your draft selections locally in your browser's storage every 30 seconds.
+
+How to Use
+Open the Tool: Open the rbfrs-scenario-tool-v2.html file in your web browser.
+
+Select Parameters: Use the dropdown menus in the "Basic Scenario Information," "Building & Environment Details," "Incident Specifics," and "Competency Assessment" sections to define your desired scenario.
+
+Generate a Scenario:
+
+Click 📝 Generate Scenario to create a brief based on your selected parameters.
+
+Click 🎲 Randomise Scenario to populate all fields with random selections.
+
+Click 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Berkshire Specific to generate a scenario with parameters tailored to the Berkshire region.
+
+Review Output: The generated scenario brief will appear in the "Generated Scenario Brief" section below the forms.
+
+Export Data: Click 💾 Export Scenario to download a JSON file containing all the generated scenario data.
+
+Scenario Generation Options
+The tool provides the following customizable fields:
+
+Basic Scenario Information
+Scenario Title
+
+Location / Setting
+
+Incident Type
+
+Date / Time
+
+Weather Conditions
+
+Building & Environment Details
+Construction Type
+
+Number of Floors
+
+Fire Protection Systems
+
+Access & Egress
+
+Occupancy Status
+
+Incident Specifics
+Initial Situation
+
+Casualty Information
+
+Initial Resources
+
+Potential Complications
+
+Primary Assessment Focus
+
+Competency Assessment
+Primary Competency 1 & 2
+
+Secondary Competency 1 & 2
+
+Assessment Level
+
+Scenario Duration
+
+Deployment to Microsoft Teams
+This tool is designed to be integrated into Microsoft Teams as a custom tab for easy access during training sessions.
+
+Host the HTML File: The rbfrs-scenario-tool-v2.html file must be hosted on a web server with an HTTPS URL. GitHub Pages is a convenient option for this.
+
+Create a GitHub repository (e.g., rbfrs-scenario-tool).
+
+Upload rbfrs-scenario-tool-v2.html to the root of your main branch.
+
+Enable GitHub Pages in your repository settings (Settings > Pages), selecting the main branch and /root folder.
+
+Copy the generated GitHub Pages URL (e.g., https://yourusername.github.io/rbfrs-scenario-tool/rbfrs-scenario-tool-v2.html).
+
+Add as a Teams Tab:
+
+In Microsoft Teams, navigate to the desired Team and Channel.
+
+Click the + (Add a tab) button.
+
+Search for and select the "Website" app.
+
+Provide a Tab name (e.g., "RBFRS Scenario Builder").
+
+Paste the HTTPS URL from GitHub Pages into the URL field.
+
+Click Save.
+
+The tool will now be accessible directly within your Teams channel.
+
+Local Development
+To run or modify this tool locally:
+
+Clone the Repository:
+
+git clone https://github.com/yourusername/rbfrs-scenario-tool.git
+
+Open the File: Navigate to the cloned directory and open rbfrs-scenario-tool-v2.html in your web browser.
+
+Contributing
+Contributions are welcome! If you have suggestions for new scenarios, competencies, or features, please feel free to open an issue or submit a pull request on the GitHub repository.
+
+License
+This project is open-source and available under the MIT License.
