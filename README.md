@@ -1,8 +1,8 @@
 # Scenario_Tool_Test
 Test for a Scenario Generator
 This tool is for testing only and is not meant for production. 
-RBFRS Incident Commander Assessment – Enhanced Scenario Builder
-This tool provides a dynamic and customizable scenario builder designed for Incident Commander (IC) assessment and training within the Royal Berkshire Fire and Rescue Service (RBFRS). It allows instructors to quickly generate diverse incident scenarios by selecting various parameters related to location, incident type, environmental conditions, building specifics, and assessment focus.
+Incident Commander Assessment – Enhanced Scenario Builder
+This tool provides a dynamic and customizable scenario builder designed for Incident Commander (IC) assessment and training. It allows instructors to quickly generate diverse incident scenarios by selecting various parameters related to location, incident type, environmental conditions, building specifics, and assessment focus.
 
 Table of Contents
 Features
@@ -31,9 +31,6 @@ Detailed Output: Generates a concise brief outlining the scenario details, asses
 Export Functionality: Export the generated scenario data as a JSON file for record-keeping or further analysis.
 
 Auto-Save: Automatically saves your draft selections locally in your browser's storage every 30 seconds.
-
-How to Use
-Open the Tool: Open the rbfrs-scenario-tool-v2.html file in your web browser.
 
 Select Parameters: Use the dropdown menus in the "Basic Scenario Information," "Building & Environment Details," "Incident Specifics," and "Competency Assessment" sections to define your desired scenario.
 
@@ -94,26 +91,6 @@ Assessment Level
 
 Scenario Duration
 
-
-
-Search for and select the "Website" app.
-
-Provide a Tab name (e.g., "RBFRS Scenario Builder").
-
-Paste the HTTPS URL from GitHub Pages into the URL field.
-
-Click Save.
-
-The tool will now be accessible directly within your Teams channel.
-
-Local Development
-To run or modify this tool locally:
-
-Clone the Repository:
-
-git clone https://github.com/yourusername/rbfrs-scenario-tool.git
-
-Open the File: Navigate to the cloned directory and open rbfrs-scenario-tool-v2.html in your web browser.
 
 Contributing
 Contributions are welcome! If you have suggestions for new scenarios, competencies, or features, please feel free to open an issue or submit a pull request on the GitHub repository.
